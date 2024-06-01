@@ -28,7 +28,7 @@ const AddProduct = () => {
         let formData = new FormData();
         formData.append('product',image);
 
-        await fetch('https://server-dcp9.onrender.com:4000/upload',{
+        await fetch('https://server-dcp9.onrender.com/upload',{
             method:'POST',
             headers:{
                 Accept:'application/json',
